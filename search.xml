@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Cách trang trí tài khoản steam</title>
+      <link href="/2019/08/16/trick-steam-profile/"/>
+      <url>/2019/08/16/trick-steam-profile/</url>
+      
+        <content type="html"><![CDATA[<p>Steam là 1 trang bán game bản quyền trực tuyến lớn nhất thế giới, bạn mua game từ steam về chơi và cảm thấy muốn trang trí profile steam của bạn cho đẹp? </p><p>Sau đây là 1 số cách mà tui dùng để trang trí profile của mình</p><p>Lưu ý: <em>Level</em>(Cấp độ) của tài khoản steam của bạn phải từ <strong>lv10</strong> trở lên thì mới sử dụng được những hướng dẫn dưới đây (●´ω｀●)</p><h1 id="Tai-artwork-showcase-len-profile"><a href="#Tai-artwork-showcase-len-profile" class="headerlink" title="Tải artwork showcase lên profile"></a>Tải artwork showcase lên profile</h1><p>Bước 1: </p><ul><li>Truy cập vào đường <a href="http://steamcommunity.com/sharedfiles/edititem/767/3/" target="_blank" rel="noopener">link này</a> trên trình duyệt web.</li></ul><p>Bước 2: Mở <em>bảng điều khiển</em> trên trình duyệt lên</p><ul><li>Phím tắt của Chrome: Ctrl + Shift + J</li><li>Phím tắt của Firefox: Ctrl + Shift + K</li></ul><p>Bước 3:</p><ul><li><p>Sao chép mã bên dưới, dán mã vào bảng điều khiển và gửi mã bằng cách nhấn enter:</p><blockquote><p>$J(‘[name=”file_type”]’).val(“1”);</p></blockquote></li><li><p>Bấm phím F12 để tắt tab <em>Console</em> và nhấn nút save ảnh</p></li><li><p>Bỏ qua văn bản ở đầu trang tiếp theo, bạn đã tải lên thành công ảnh của mình.</p></li><li><p>Nếu bạn định hiển thị ảnh chụp màn hình tùy chỉnh trên hồ sơ của mình nhưng nó dài hơn 506 pixel, thay vào đó hãy sử dụng mã bên dưới. Điều này sẽ ngăn ảnh chụp màn hình của bạn bị thay đổi kích thước khi hiển thị.</p><blockquote><p>$J(‘#image_width’).val(‘1000’);$J(‘#image_height’).val(‘1’);$J(‘[name=”file_type”]’).val(“1”);</p></blockquote></li></ul><h1 id="Tai-sreenshot-showcase-len-profile"><a href="#Tai-sreenshot-showcase-len-profile" class="headerlink" title="Tải sreenshot showcase lên profile"></a>Tải sreenshot showcase lên profile</h1><p>Bước 1: </p><ul><li>Truy cập vào đường <a href="http://steamcommunity.com/sharedfiles/edititem/767/3/" target="_blank" rel="noopener">link này</a> trên trình duyệt web.</li></ul><p>Bước 2: Mở <em>bảng điều khiển</em> trên trình duyệt lên</p><ul><li>Phím tắt của Chrome: Ctrl + Shift + J</li><li>Phím tắt của Firefox: Ctrl + Shift + K</li></ul><p>Bước 3:</p><ul><li><p>Sao chép mã bên dưới, dán mã vào bảng điều khiển và gửi mã bằng cách nhấn enter:</p><blockquote><p>$J(‘[name=”file_type”]’).val(“5”);</p></blockquote></li><li><p>Bấm phím F12 để tắt tab <em>Console</em> và nhấn nút save ảnh</p></li><li><p>Bỏ qua văn bản ở đầu trang tiếp theo, bạn đã tải lên thành công ảnh của mình.</p></li><li><p>Nếu bạn định hiển thị ảnh chụp màn hình tùy chỉnh trên hồ sơ của mình nhưng nó dài hơn 506 pixel, thay vào đó hãy sử dụng mã bên dưới. Điều này sẽ ngăn ảnh chụp màn hình của bạn bị thay đổi kích thước khi hiển thị.</p><blockquote><p>$J(‘#image_width’).val(‘1000’);$J(‘#image_height’).val(‘1’);$J(‘[name=”file_type”]’).val(“5”);</p></blockquote></li></ul><h1 id="Tai-workshop-showcase-len-profile"><a href="#Tai-workshop-showcase-len-profile" class="headerlink" title="Tải workshop showcase lên profile"></a>Tải workshop showcase lên profile</h1><p>Bước 1: </p><ul><li>Truy cập vào đường <a href="http://steamcommunity.com/workshop/edititem/570/11" target="_blank" rel="noopener">link này</a> trên trình duyệt web.</li></ul><p>Bước 2: Mở <em>bảng điều khiển</em> trên trình duyệt lên</p><ul><li>Phím tắt của Chrome: Ctrl + Shift + J</li><li>Phím tắt của Firefox: Ctrl + Shift + K</li></ul><p>Bước 3:</p><ul><li><p>Sao chép mã bên dưới, dán mã vào bảng điều khiển và gửi mã bằng cách nhấn enter:</p><blockquote><p>$J(‘[name=”appid”]’).val(“241100 “);$J(‘[name=”consumer_app_id”]’).val(“241100 “);$J(‘[name=”visibility”]’).val(“0”)</p></blockquote></li><li><p>Bấm lại phím F12 để tắt <em>bảng điều khiển</em> và nhấn nút save ảnh</p></li><li><p>Bỏ qua văn bản ở đầu trang tiếp theo, bạn đã tải lên thành công ảnh của mình.</p></li></ul><h1 id="Can-giua-vi-tri-chu-tren-steam"><a href="#Can-giua-vi-tri-chu-tren-steam" class="headerlink" title="Căn giữa vị trí chữ trên steam"></a>Căn giữa vị trí chữ trên steam</h1><p>Bước 1: Truy cập vào đường <a href="https://center.shellcode.team/" target="_blank" rel="noopener">link này</a></p><p>Bước 2: Chọn vùng chữ muốn căn chỉnh:</p><ul><li>Text ShowCase </li><li>Group Summary</li><li>Profile Comment</li><li>Group Comment</li><li>Summary</li></ul><p>Bước 3: </p><ul><li>điền chữ bạn muốn vào</li><li>bấm vào <em>Center My Test</em></li><li>bấm vào <em>Copy</em></li></ul><p>Bước 4: bấm vào <a href="https://steamcommunity.com/my/edit" target="_blank" rel="noopener">Link</a> và chọn vùng bạn cần sửa và dán vào</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Games </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Steam </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hướng dẫn Opt-out</title>
       <link href="/2019/08/16/huong-dan-opt-out/"/>
       <url>/2019/08/16/huong-dan-opt-out/</url>
@@ -113,14 +138,14 @@
       
       <categories>
           
-          <category> Game </category>
+          <category> Games </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> torn </tag>
+            <tag> Torn </tag>
             
         </tags>
       
