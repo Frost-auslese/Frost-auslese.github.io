@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  <title>Lập Trình Bash Shell | Frost_Auslese&#39;s Blog</title>
+  <meta name="keywords" content=" Code ">
+  <meta name="description" content="Lập Trình Bash Shell | Frost_Auslese&#39;s Blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Hồ sơ cá nhânTrương Chí Cường (Frost Auslee),Đã học từ CG Training, hiện đang làm việc đồ hoạ 3d và các công việc liên quan.Đã học chuyên ngành CNTT tại Đại Học An GiangTôi thích nghiên cứu các công n">
+<meta name="keywords" content="Frost Auslese">
+<meta property="og:type" content="website">
+<meta property="og:title" content="About &amp; message board">
+<meta property="og:url" content="https://frost-auslese.github.io/about/index.html">
+<meta property="og:site_name" content="Frost_Auslese&#39;s Blog">
+<meta property="og:description" content="Hồ sơ cá nhânTrương Chí Cường (Frost Auslee),Đã học từ CG Training, hiện đang làm việc đồ hoạ 3d và các công việc liên quan.Đã học chuyên ngành CNTT tại Đại Học An GiangTôi thích nghiên cứu các công n">
+<meta property="og:locale" content="vi">
+<meta property="og:updated_time" content="2019-08-14T22:40:22.957Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="About &amp; message board">
+<meta name="twitter:description" content="Hồ sơ cá nhânTrương Chí Cường (Frost Auslee),Đã học từ CG Training, hiện đang làm việc đồ hoạ 3d và các công việc liên quan.Đã học chuyên ngành CNTT tại Đại Học An GiangTôi thích nghiên cứu các công n">
+
+
+<link rel="icon" href="/img/avatar.jpg">
+
+<link href="/css/style.css?v=1.0.1" rel="stylesheet">
+
+<link href="/css/hl_theme/atom-light.css?v=1.0.1" rel="stylesheet">
+
+<link href="//cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+<link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="/js/jquery.autocomplete.min.js?v=1.0.1"></script>
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+
+<script src="//cdn.bootcss.com/nprogress/0.2.0/nprogress.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+<script src="/js/iconfont.js?v=1.0.1"></script>
+
+</head>
+<div style="display: none">
+  <input class="theme_disqus_on" value="false">
+  <input class="theme_preload_comment" value="true">
+  <input class="theme_blog_path" value>
+</div>
+
+<body>
+<aside class="nav">
+    <div class="nav-left">
+        <a href="/" class="avatar_target">
+    <img class="avatar" src="/img/avatar.jpg" />
+</a>
+<div class="author">
+    <span>Frost Auslese</span>
+</div>
+
+<div class="icon">
+    
+        
+        <a title="rss" href="/atom.xml" target="_blank">
+            
+                <svg class="iconfont-svg" aria-hidden="true">
+                    <use xlink:href="#icon-rss"></use>
+                </svg>
+            
+        </a>
+        
+    
+        
+        <a title="github" href="https://github.com/frost-auslese" target="_blank">
+            
+                <svg class="iconfont-svg" aria-hidden="true">
+                    <use xlink:href="#icon-github"></use>
+                </svg>
+            
+        </a>
+        
+    
+        
+        <a title="facebook" href="https://www.facebook.com/FrostAuslese.Dgs" target="_blank">
+            
+                <svg class="iconfont-svg" aria-hidden="true">
+                    <use xlink:href="#icon-facebook"></use>
+                </svg>
+            
+        </a>
+        
+    
+        
+        <a title="twitter" href="https://twitter.com/Virus_neet" target="_blank">
+            
+                <svg class="iconfont-svg" aria-hidden="true">
+                    <use xlink:href="#icon-twitter"></use>
+                </svg>
+            
+        </a>
+        
+    
+        
+    
+        
+        <a title="instagram" href="https://www.instagram.com/frost_auslese/" target="_blank">
+            
+                <svg class="iconfont-svg" aria-hidden="true">
+                    <use xlink:href="#icon-instagram"></use>
+                </svg>
+            
+        </a>
+        
+    
+        
+        <a title="reddit" href="https://www.reddit.com/user/iamotakuneet/" target="_blank">
+            
+                <svg class="iconfont-svg" aria-hidden="true">
+                    <use xlink:href="#icon-reddit"></use>
+                </svg>
+            
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a title="email" href="mailto:frost-auslese@outlook.com" target="_blank">
+            
+                <svg class="iconfont-svg" aria-hidden="true">
+                    <use xlink:href="#icon-email"></use>
+                </svg>
+            
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+</div>
+
+
+
+<a class="more-menus">Thêm menu</a>
+
+
+<ul>
+    <li><div class="all active">Số Posts<small> [4]</small></div></li>
+    
+        
+            
+            <li><div data-rel="Máy Tính">Máy Tính<small>(2)</small></div>
+                
+            </li>
+            
+        
+    
+        
+            
+            <li><div data-rel="Linux">Linux<small>(1)</small></div>
+                
+            </li>
+            
+        
+    
+        
+            
+            <li><div data-rel="Game">Game<small>(1)</small></div>
+                
+            </li>
+            
+        
+    
+</ul>
+<div class="left-bottom">
+    <div class="menus">
+    
+    
+    
+    
+    <a class="dynamic-menu " target="_blank"  href="https://steamcommunity.com/id/virusneet/">Steam</a>
+    
+    </div>
+    <div><a style="border-right: 1px solid #fff; width: 49%"  class="about site_url"  href="/about">Tui</a><a style="width: 50%"  class="friends">Homies</a></div>
+</div>
+<input type="hidden" id="yelog_site_posts_number" value="4">
+
+<div style="display: none">
+    <span id="busuanzi_value_site_uv"></span>
+    <span id="busuanzi_value_site_pv"></span>
+</div>
+
+    </div>
+    <div class="nav-right">
+        <div class="friends-area">
+    <div class="friends-title">
+        Danh Sách Chiến Hữu Game
+        <i class="back-title-list"></i>
+    </div>
+    <div class="friends-content">
+        <ul>
+            
+            <li><a target="_blank" href="https://steamcommunity.com/profiles/76561198249122290/">BigT</a></li>
+            
+            <li><a target="_blank" href="https://steamcommunity.com/profiles/76561198118311340/">ΛϾΞ</a></li>
+            
+            <li><a target="_blank" href="https://steamcommunity.com/profiles/76561198168482609/">Y0neme</a></li>
+            
+            <li><a target="_blank" href="https://steamcommunity.com/profiles/76561198310634875/">Eris</a></li>
+            
+            <li><a target="_blank" href="https://steamcommunity.com/profiles/76561198061241179/">Funky</a></li>
+            
+            <li><a target="_blank" href="https://steamcommunity.com/profiles/76561198106851182/">Cul</a></li>
+            
+            <li><a target="_blank" href="https://steamcommunity.com/profiles/76561198106851182/">Mars</a></li>
+            
+            <li><a target="_blank" href="https://steamcommunity.com/profiles/76561198095652569/">Eci</a></li>
+            
+            <li><a target="_blank" href="https://steamcommunity.com/profiles/76561198250040984/">King of hentai</a></li>
+            
+        </ul>
+    </div>
+</div>
+        <div class="title-list">
+    <form onkeydown="if(event.keyCode==13){return false;}">
+        <input class="search" type="text" placeholder="Search..." autocomplete="off"id="local-search-input" >
+        <i class="cross"></i>
+        <span>
+            <label for="tagswitch">Tags:</label>
+            <input id="tagswitch" type="checkbox" style="display: none" />
+            <i id="tagsWitchIcon"></i>
+        </span>
+    </form>
+    <div class="tags-list">
+    
+    <li class="article-tag-list-item">
+        <a href="javascript:" class="color3">windows</a>
+    </li>
+    
+    <li class="article-tag-list-item">
+        <a href="javascript:" class="color5">Code</a>
+    </li>
+    
+    <li class="article-tag-list-item">
+        <a href="javascript:" class="color5">torn</a>
+    </li>
+    
+    <div class="clearfix"></div>
+</div>
+
+    
+    <nav id="title-list-nav">
+        
+        <a  class="Máy Tính "
+           href="/2019/08/15/cau-chuyen-tang-toc-windows/"
+           data-tag="windows"
+           data-author="" >
+            <span class="post-title" title="Câu Chuyện Tăng Tốc Windows">Câu Chuyện Tăng Tốc Windows</span>
+            <span class="post-date" title="2019-08-15 20:27:40">2019/08/15</span>
+        </a>
+        
+        <a  class="Máy Tính "
+           href="/2019/08/15/chon-may-tinh-ca-nhan/"
+           data-tag="windows"
+           data-author="" >
+            <span class="post-title" title="Chọn máy tính cá nhân">Chọn máy tính cá nhân</span>
+            <span class="post-date" title="2019-08-15 21:26:16">2019/08/15</span>
+        </a>
+        
+        <a  class="Linux "
+           href="/2019/08/15/lap-trinh-bash-shell/"
+           data-tag="Code"
+           data-author="" >
+            <span class="post-title" title="Lập Trình Bash Shell">Lập Trình Bash Shell</span>
+            <span class="post-date" title="2019-08-15 22:40:15">2019/08/15</span>
+        </a>
+        
+        <a  class="Game "
+           href="/2019/08/15/torn-city/"
+           data-tag="torn"
+           data-author="" >
+            <span class="post-title" title="Torn City">Torn City</span>
+            <span class="post-date" title="2019-08-15 14:23:03">2019/08/15</span>
+        </a>
+        
+    </nav>
+</div>
+    </div>
+    <div class="hide-list">
+        <div class="semicircle">
+            <div class="brackets first"><</div>
+            <div class="brackets">&gt;</div>
+        </div>
+    </div>
+</aside>
+<div class="post">
+    <div class="pjax">
+        <article id="post-lap-trinh-bash-shell" class="article article-type-post" itemscope itemprop="blogPost">
+    
+        <h1 class="article-title">Lập Trình Bash Shell</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        <span class="book">
+            
+                <a href="javascript:" data-rel="Linux">Linux</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            
+            <a href="javascript:" class="color5">Code</a>
+            
+        </span>
+        
+    </div>
+    <div class="article-meta">
+        
+        Thời gian tạo:<time class="date" title='Thời gian cập nhật: 2019-08-16 00:07:37'>2019-08-15 22:40</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        
+        <span id="busuanzi_container_page_pv">
+            Số lần đọc:<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+        <span class="top-comment" title="Chuyển đến khu vực bình luận">
+            <a href="#comments">
+                Nhận xét:<span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </a>
+        </span>
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Bash-Shell-la-gi"><span class="toc-text">Bash Shell là gì?</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Bash’s-Configuration-Files"><span class="toc-text">Bash’s Configuration Files</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Interactive-shells"><span class="toc-text">Interactive shells</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Interactive-shell-la-gi"><span class="toc-text">Interactive shell là gì?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Interactive-shell-behavior"><span class="toc-text">Interactive shell behavior</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Aliases"><span class="toc-text">Aliases</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Viet-shell-script-nhu-the-nao"><span class="toc-text">Viết shell script như thế nào ?</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Bien-trong-shell"><span class="toc-text">Biến trong shell</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Su-dung-bien"><span class="toc-text">Sử dụng biến</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Tinh-toan-trong-Shell"><span class="toc-text">Tính toán trong Shell</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Mot-vai-thong-tin-ve-dau-ngoac-kep"><span class="toc-text">Một vài thông tin về dấu ngoặc kép</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Trang-thai-Exit"><span class="toc-text">Trạng thái Exit</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Lenh-read-–-doc-gia-tri-nhap-tu-ban-phim-file-…"><span class="toc-text">Lệnh read – đọc giá trị nhập từ bàn phím , file …</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Tham-so-lenh"><span class="toc-text">Tham số lệnh</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Redirection"><span class="toc-text">Redirection</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Pipe"><span class="toc-text">Pipe</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Ket"><span class="toc-text">Kết</span></a></li></ol>
+    
+<style>
+    .left-col .switch-btn,
+    .left-col .switch-area {
+        display: none;
+    }
+    .toc-level-3 i,
+    .toc-level-3 ol {
+        display: none !important;
+    }
+</style>
+</div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><strong><em>Nếu bạn đang dùng linux thì đã quá quen với shell script. Nhưng sau đây, tui vẫn muốn giới thiệu về cách để viết 1 shell script cho những bạn đang cần nó.</em></strong></p>
+<h1 id="Bash-Shell-la-gi"><a href="#Bash-Shell-la-gi" class="headerlink" title="Bash Shell là gì?"></a>Bash Shell là gì?</h1><p>GNU Bourne-Again SHell (BASH) kết hợp các tính năng từ C Shell (csh) và Korn Shell (ksh) và tuân thủ các thông số kỹ thuật shell POSTIX 2. Nó cung cấp một giao diện dòng lệnh (CLI) để làm việc trên các hệ thống * nix và là shell phổ biến nhất được sử dụng trên các hệ thống Linux.</p>
+<h1 id="Bash’s-Configuration-Files"><a href="#Bash’s-Configuration-Files" class="headerlink" title="Bash’s Configuration Files"></a>Bash’s Configuration Files</h1><p>Trong thư mục home có 3 file có ý nghĩa đặc biệt với bash, cho phép bạn tự động set up môi trường khi bạn log in và gọi tới Bash shell khác, và cho bạn thực thi câu lệnh khi bạn log out. Bash mặc định /etc/profile.</p>
+<ul>
+<li>.bash_profile : Đọc và thực hiện các lệnh trong nó mỗi khi đăng nhập hệ thống</li>
+<li>.bashrc : Đọc mà thực hiện mỗi lần khi bắt đầu một subshell</li>
+<li>.bash_logout : Đọc và thực hiện mỗi lần thoát khỏi shel</li>
+</ul>
+<p>Bash cho phép có thể tồn tại 2 file khác tương tự như .bash_profile là : .bash_login và .profile. Mỗi khi login thì chỉ có 1 file được đọc. Nếu không có file .bash_profile thì nó sẽ tìm file .bash_login. Nếu file .bash_login cũng không có thì nó mới tìm tới file .profile. </p>
+<p>Trong trường hợp bạn muốn thực thi lệnh nào đó bất kể bạn đăng nhập hay không đăng nhập thì bạn có thể thêm nó vào file .bashrc. Ví dụ đối với những bạn coder thì thao tác thường duyên như pull code, push code, tạo nhánh, check out. Những công việc mà lặp đi lặp lại hằng ngày, mà chúng ta muốn tiết kiệm thời gian thì có thể set alias theo cách của chúng ta trong những file cấu hình này. Nó sẽ tiết kiệm được kha khá thời gian của chúng ta.</p>
+<p>Khi sửa đổi 1 file cấu hình chúng ta có thể dùng lệnh</p>
+<blockquote>
+<p>source file<br>hoặc<br>source .file</p>
+</blockquote>
+<p>để đọc các lệnh trong file chúng ta mới thay đổi.</p>
+<h1 id="Interactive-shells"><a href="#Interactive-shells" class="headerlink" title="Interactive shells"></a>Interactive shells</h1><h2 id="Interactive-shell-la-gi"><a href="#Interactive-shell-la-gi" class="headerlink" title="Interactive shell là gì?"></a>Interactive shell là gì?</h2><p>Là bất kì quá trình nào bạn sử dụng để nhập lệnh và lấy kết quả đầu ra từ các lệnh đó. Do đó log in shell là interactive. Ngược lại, khi bạn chạy một kịch bản, một non-interactive được bắt đầu cái mà sẽ chạy những lệnh trong kịch bản đó và sau đó thoát nó khi đã xong.</p>
+<p>Ta có thể test với kí tự đặc biết “-“, nó bao gồm “i” khi shell là interactive.</p>
+<blockquote>
+<p>FRAMGIA\frostAuslese@framgia0157-pc:~$ echo $-<br>result: himBH</p>
+</blockquote>
+<h2 id="Interactive-shell-behavior"><a href="#Interactive-shell-behavior" class="headerlink" title="Interactive shell behavior"></a>Interactive shell behavior</h2><p>Một số sự khác biệt trong interactive mode:</p>
+<ul>
+<li>Với mỗi loại thì chúng sẽ đọc tệp startup file là khác nhau (/etc/profile, /etc/bashrc, ~/.bash_profile, ~/.bashrc, …)</li>
+<li>Job controll được bật mặc định.</li>
+<li>Lệnh được mặc định đọc từ command line sử dụng <strong>readline</strong>.</li>
+<li>Alias expansion được bật.</li>
+<li>Command history mặc định được bật. Lịch sử được lưu trong tệp trỏ tới bơi HISTFILE khi thoát shell. Mặc định HISTFILE trỏ tới ~/.bash_history.</li>
+<li>Bash kiểm tra mail định kì.,</li>
+<li>Bash có thể được cấu hình để thoát khỏi nó khi gặp các biến không được tham chiếu. Ở chế độ interative thì cái này bị tắt.</li>
+<li>Tự động thoát sau một khaongr thời gian được chỉ định trong biến TMOUT.</li>
+</ul>
+<h1 id="Aliases"><a href="#Aliases" class="headerlink" title="Aliases"></a>Aliases</h1><p>Một alias có thể hiểu nôm na là một chuỗi được thay thế có một dòng lệnh hoặc một cụm các dòng lệnh. ví dụ:</p>
+<blockquote>
+<p>alias gpod=”git pull origin develop”</p>
+</blockquote>
+<p>thay vì việc phải gõ</p>
+<blockquote>
+<p>git pull origin develop</p>
+</blockquote>
+<p>thì ta có thể gõ.</p>
+<blockquote>
+<p>gpod</p>
+</blockquote>
+<p>Hoặc ta có thể lồng alias vào trong 1 alias khác.</p>
+<blockquote>
+<p> alias gcod=”git checkout develop”<br> alias gpfd=”git pull framgia develop”<br> alias gco=”git checkout”<br> alias grd=”git rebase develop”</p>
+</blockquote>
+<p> #get latest pull and run bundle install, migrate<br> alias gud=”gcod;gpfd;gco task;grd;bundle install;rake db:migrate”</p>
+<p>ở trên là một tập hợp các lệnh, Lệnh cuối cùng bao gồm nhiều alias ở trên, Thay vì phải gõ 5 6 lệnh thì chúng ta có thể gõ đúng 1 lệnh duy nhất có 3 từ</p>
+<blockquote>
+<p>gud</p>
+</blockquote>
+<p>Việc này giúp chúng ta cũng tiết kiệm thời gian và tay đỡ to hơn một tí =))</p>
+<h1 id="Viet-shell-script-nhu-the-nao"><a href="#Viet-shell-script-nhu-the-nao" class="headerlink" title="Viết shell script như thế nào ?"></a>Viết shell script như thế nào ?</h1><p>Dùng bất cứ chương trình gì có thể soạn thảo . Ví dụ: vi,emac,… Tui thì chọn vi</p>
+<ul>
+<li>Bạn nên dùng gedit để viết shell vì khi viết shell nó sẽ hiện màu sắc phân biệt giữa các kí tự và các từ khoá giúp bạn dễ kiểm soát lỗi.</li>
+<li>Sau khi viết xong phải gán quyền thực thi cho script Ví dụ:<blockquote>
+<p>$ chmod u+x tên script</p>
+</blockquote>
+</li>
+<li>Thực thi script Cú pháp:<blockquote>
+<p>$ bash tên_script<br>$ sh tên_script<br>$ ./ tên_script</p>
+</blockquote>
+</li>
+</ul>
+<p>Cấu trúc một chương trình shell script như sau:</p>
+<blockquote>
+<p>#!/bin/bash &lt;- shell mà script sẽ chạy<br>command … &lt;- lệnh<br>command…<br>exit 0 &lt;- thoát</p>
+</blockquote>
+<p><em>Chú ý:</em> lệnh exit 0 sẽ được mô tả kỹ trong phần Exit status</p>
+<h1 id="Bien-trong-shell"><a href="#Bien-trong-shell" class="headerlink" title="Biến trong shell"></a>Biến trong shell</h1><p>Trong linux shell thì có 2 kiểu biến:</p>
+<ul>
+<li>Biến hệ thống (system variable): được tạo bởi Linux. Kiểu biến này thường được viết bằng ký tự in hoa. </li>
+<li>Biến do người dùng định nghĩa. Định nghĩa biến: Cú pháp:<code> tên biến=giá trị </code>. Một số quy định về biến trong shell: (1) Tên bắt đầu bằng ký tự hoặc dấu gạch chân (<code>_</code>). (2) Không được có khoảng trắng trước và sau dấu bằng khi gán giá trị cho biến (3) Biến có phân biệt chữ hoa chữ thường (4) Bạn có thể khai báo một biến có giá trị <code>NULL</code> như sau: <code>var01= hoặc var01=""</code> (5) Không dùng ?, * để đặt tên biến.</li>
+</ul>
+<h1 id="Su-dung-bien"><a href="#Su-dung-bien" class="headerlink" title="Sử dụng biến"></a>Sử dụng biến</h1><p>Để truy xuất giá trị biến, dùng cú pháp sau: <code>$tên_biến</code> ví dụ:</p>
+<blockquote>
+<p>n=10<br>echo $n</p>
+</blockquote>
+<p>Lệnh <code>echo</code> Dùng để hiển thị dòng văn bản, giá trị biến … Cú pháp: <code>echo [options] [chuỗi, biến…]</code> Các option:</p>
+<blockquote>
+<p>-n: không in ký tự xuống dòng.<br>-e: cho phép hiểu những ký tự theo sau dấu \ trong chuỗi<br>\a: alert (tiếng chuông)<br>\b: backspace<br>\c: không xuống dòng<br>\n: xuống dòng<br>\r: về đầu dòng<br>\t: tab<br>\: dấu \</p>
+</blockquote>
+<p>ví dụ: <code>echo –e "một hai ba \a\t\t bốn \n"</code></p>
+<h1 id="Tinh-toan-trong-Shell"><a href="#Tinh-toan-trong-Shell" class="headerlink" title="Tính toán trong Shell"></a>Tính toán trong Shell</h1><p>Sử dụng expr Cú pháp: <code>expr op1 phép toán op2</code> Ví dụ:</p>
+<blockquote>
+<p>expr 1 + 3<br>expr 2 \– 1<br>expr 10 / 2<br>expr 20 % 3<br>expr 10 * 3<br>echo <code>expr 6 \+ 3</code><br>z=<code>epxr $z \+ 3</code></p>
+</blockquote>
+<p>Sử dụng <code>let</code> Ví dụ:</p>
+<blockquote>
+<p>let “z=$z+3”<br>let “z += 3”<br>let “z=$m*$n”</p>
+</blockquote>
+<p>Sử dụng <code>$((…))</code> ví dụ:</p>
+<blockquote>
+<p>z=$((z+3))<br>z=$(($m*$n))</p>
+</blockquote>
+<p>chú ý:</p>
+<blockquote>
+<p>epxr 20 % 3 : 20 mod 3<br>epxr 10 * 3 : phép toán nhân , sự dụng * chứ không phải * để phân biệt với ký tự thay thế.</p>
+</blockquote>
+<p>Dòng cuối trong ví dụ trên được sử dụng rất nhiều trong shell, khi một lệnh được đặt giữa 2 dấu “ (không phải dấu nháy đơn ‘ ’ ) thì shell sẽ thực thi lệnh đó. Ví dụ: <code>a=epxr 10 * 3``</code> –&gt; a sẽ có giá trị là 10 x 3 = 30 in kết quả ra màn hình: echo $a</p>
+<h1 id="Mot-vai-thong-tin-ve-dau-ngoac-kep"><a href="#Mot-vai-thong-tin-ve-dau-ngoac-kep" class="headerlink" title="Một vài thông tin về dấu ngoặc kép"></a>Một vài thông tin về dấu ngoặc kép</h1><p>Có 3 loại dấu sau: Code: “: Nháy kép bất cứ gì nằm trong dấy nháy kép được xem là những ký tự riêng biệt ‘: Nháy đơn những gì nằm trong dấu nháy đơn có ý nghĩa không đổi `: Nháy ngược thực thi lệnh Ví dụ:</p>
+<blockquote>
+<p>echo “hôm nay là date” -&gt; không in được hôm nay là thứ mấy<br>echo “hôm nay là <code>date</code>“ -&gt; sẽ in ra ngày tháng hôm nay vì date nằm trong dấu nháy ngược <code></code></p>
+</blockquote>
+<h1 id="Trang-thai-Exit"><a href="#Trang-thai-Exit" class="headerlink" title="Trạng thái Exit"></a>Trạng thái Exit</h1><p>Mặc định trong Linux, khi một lệnh hoặc script thực thi , nó trả về 2 loạI giá trị để xác định xem lệnh hoặc script đó có thực thi thành công không. (1). Nếu giá trị trả về là 0 (zero) -&gt; lệnh thực thi thành công (2). Nếu giá trị trả về khác 0 (nonzero) -&gt; không thành công Giá trị đó gọI là Exit status Vậy làm thế nào để biết được giá trị trả về của một lệnh hay 1 script ? Rất đơn giản, chỉ cần sử dụng biến đặc biệt có sẵn của shell: <code>$?</code> Ví dụ: nếu bạn xoá 1 file không tồn tạI trên đĩa cứng</p>
+<blockquote>
+<p>rm unknowfile<br>echo $? -&gt; sẽ in ra màn hình một giá trị khác 0</p>
+</blockquote>
+<h1 id="Lenh-read-–-doc-gia-tri-nhap-tu-ban-phim-file-…"><a href="#Lenh-read-–-doc-gia-tri-nhap-tu-ban-phim-file-…" class="headerlink" title="Lệnh read – đọc giá trị nhập từ bàn phím , file …"></a>Lệnh read – đọc giá trị nhập từ bàn phím , file …</h1><p>Dùng để lấy dữ liệu nhập từ bàn phím và lưu vào biến Cú pháp: read var1 var2 var3 … varN read không có tham số  giá trị sẽ được chứa trong biến $REPLY ví dụ:</p>
+<blockquote>
+<p>read<br>var=”$REPLY”</p>
+</blockquote>
+<p>Bình thường thì dấu <code> \ </code>cho phép xuống dòng để nhập tiếp dữ liệu trong read. Nếu <code> read –r </code> thì sẽ không có ý nghĩa đó. </p>
+<p>Ví dụ: read var # nhập vào: first line \ second line echo “$var”  kết quả: first line second line </p>
+<p>Nhưng vớI tham số r thì sao ? <code>read –r var # nhập vào: first line \ echo "$var"  kết quả: first line \ </code> Lệnh read có thể dùng để đọc file. Nếu file chứa nhiều hơn 1 dòng thì chỉ có dòng thứ nhất được gán cho biến . Nếu read vớI nhiều hơn 1 biến (<code>read var1 var2 …</code>) thì read sẽ dựa vào biến $IFS để gán dữ liệu cho các biến. Mặc định thì $IFS là khoảng trắng. </p>
+<p>Ví dụ: <code>read var < data_file</code> Nếu file có nhiều hơn 1 dòng <code>read var1 var2 < data_file</code> Khi đó, mỗI biến sẽ chứa 1 chuỗI được cách biệt bởI khoảng trắng ($IFS) chứ không phảI 1 dòng, biến cuốI<br>cùng sẽ được chứa toàn bộ phần còn lạI của dòng. </p>
+<p>Vậy làm thế nào để đọc toàn bộ file ? Có thể giảI quyết bằng vòng lặp không ??  </p>
+<blockquote>
+<p>while read line<br>do<br>echo $line<br>done &lt; data_file</p>
+</blockquote>
+<p>Sử dụng <code>$IFS</code> (Internal File Separator ) để tách một dòng input của <code>read</code>, nếu bạn không muốn mặc định là khoảng trắng thì làm như thế nào ? Xem đoạn script sau:</p>
+<blockquote>
+<p>echo “liet ke tat ca user “<br>OIFS=$IFS; IFS=: # backup lạI IFS và gán giá trị mới. Ví file /etc/passwd dùng: để tách biệt</p>
+</blockquote>
+<p><strong>các trường vớI nhau nên gán IFS là:</strong></p>
+<blockquote>
+<p>while read name passwd uid gid fullname ignore<br>do<br>echo “$name $fullname”<br>done &lt; /etc/passwd # I/O redirection<br>IFS=$OIFS # trả lạI IFS ban đầu</p>
+</blockquote>
+<p>Nếu đặt IFS ngay trong vòng lặp thì không cần backup IFS</p>
+<blockquote>
+<p>while IFS=: read name passwd uid gid fullname ignore<br>do<br>echo “$name $fullname”<br>done &lt; /etc/passwd</p>
+</blockquote>
+<p>IFS vẫn không đổi</p>
+<h1 id="Tham-so-lenh"><a href="#Tham-so-lenh" class="headerlink" title="Tham số lệnh"></a>Tham số lệnh</h1><p>Giả sử ta có script tên myself , để thực thi script này ta cần truyền vào 2 tham số như sau: <code>$ myself one two</code> Trong đó <code>myself</code> là tên script <code>one</code>: tham số thứ nhất truyền vào script <code>two</code>: tham số thứ hai Trong shell, bạn truy xuất đến những tham số như sau: <code>myself</code> là <code>$0</code> <code>one</code> là <code>$1</code> <code>two</code> là <code>$2</code> Và biến <code>$#</code> (có sẵn trong shell) sẽ cho giá trị 2 (có 2 tham số <code>one</code> và <code>two</code>).<br> Bạn có thể lấy tất cả các tham số bằng cách sử dụng biến <code>$@</code> hoặc <code>$*</code> </p>
+<h1 id="Redirection"><a href="#Redirection" class="headerlink" title="Redirection"></a>Redirection</h1><p>Hầu hết tất cả lệnh đều cho xuất kết quả ra màn hình hoặc lầy dữ liệu từ bàn phím nhưng vớI Linux bạn còn có thể xuất dữ liệu vào file và đọc dữ liệu từ file. Ví dụ: ls &gt; filename # in kết quả lệnh ls vào file có tên filename. Có 3 ký hiệu redirection là &gt;, &gt;&gt; và &lt; (1). Ký hiệu &gt; cú pháp: linux-command &gt; filename Xuất output của lệnh ra file. Nếu file tồn tạI thì nó sẽ ghi đè còn nếu file chưa có thì tạo file mớI (2). Ký hiệu &gt;&gt; cú pháp: linux-command &gt;&gt; filename Xuất output của lệnh vào cuốI file nếu file đã tồn tạI, còn nếu file chưa tồn tạI thì tạo file mới. (3). Ký hiệu &lt; cú pháp: linux-command &lt; filename lấy dữ liệu cho linux-command từ filename thay vì từ bàn fím.</p>
+<h1 id="Pipe"><a href="#Pipe" class="headerlink" title="Pipe"></a>Pipe</h1><p>Cú pháp: <code>command 1 | command 2</code> Output của command 1 sẽ là dữ liệu vào của command 2 Ví dụ: <code>$who | grep root</code></p>
+<h1 id="Ket"><a href="#Ket" class="headerlink" title="Kết"></a>Kết</h1><p>Trên đây là một chút tìm hiểu của mình về bash shell. Mình nghĩ nó sẽ giúp ích rất nhiều trong công việc lập trình hằng ngày của những coder như mình. Hi vọng gặp lại các bạn ở những bài sau. Cảm ơn vì đã đọc bài. (✿´‿`)</p>
+
+      
+       <hr><span style="font-style: italic;color: gray;"> Bạn có thể bình luận trong phần bình luận bên dưới, hoặc bạn có thể gửi email đến frost-auslese@outlook.com </span>
+    </div>
+</article>
+
+
+<p>
+    <a href="javascript:void(0)" class="dashang" onclick="dashangToggle()">( •̀_•́ )</a>
+</p>
+
+
+<div class="article_copyright">
+    <p><span class="copy-title">Tiêu đề bài viết:</span>Lập Trình Bash Shell</p>
+    
+    <p><span class="copy-title">Tác giả của bài viết này:</span><a href="javascript:void(0)" title="Frost Auslese">Frost Auslese</a></p>
+    <p><span class="copy-title">Thời gian phát hành:</span>2019-08-15, 22:40:15</p>
+    <p><span class="copy-title">Cập nhật lần cuối:</span>2019-08-16, 00:07:37</p>
+    <span class="copy-title">Link gốc:</span><a class="post-url" href="/2019/08/15/lap-trinh-bash-shell/" title="Lập Trình Bash Shell">https://frost-auslese.github.io/2019/08/15/lap-trinh-bash-shell/</a>
+    <p>
+        
+    </p>
+</div>
+
+
+
+    <div id="comments"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+<script type="text/javascript">
+    $.getScript('/js/gitalk.js', function () {
+        var gitalk = new Gitalk({
+            clientID: '',
+            clientSecret: '',
+            repo: 'Frost-auslese.github.io',
+            owner: 'Frost-auslese',
+            admin: ['Frost-auslese'],
+            id: decodeURI(location.pathname),
+            distractionFreeMode: 'true',
+            language: 'en',
+            perPage: parseInt('10',10)
+        })
+        gitalk.render('comments')
+    })
+</script>
+
+
+
+
+    
+
+
+
+
+    </div>
+    <div class="copyright">
+        <p class="footer-entry">©2016-2019 Frost Auslese</p>
+<p class="footer-entry">Built with <a href="https://pages.github.com/" target="_blank">Github</a></p>
+
+    </div>
+    <div class="full-toc">
+        <button class="full"><span class="min "></span></button>
+<button class="post-toc-menu"><span class="post-toc-menu-icons"></span></button>
+<div class="post-toc"><span class="post-toc-title">MỤC LỤC[\]</span>
+    <div class="post-toc-content">
+
+    </div>
+</div>
+<a class="" id="rocket" href="javascript:void(0)"></a>
+    </div>
+</div>
+<div class="acParent"></div>
+
+<div class="hide_box" onclick="dashangToggle()"></div>
+<div class="shang_box">
+    <a class="shang_close" href="javascript:void(0)" onclick="dashangToggle()">×</a>
+    <div class="shang_tit">
+        <p>Nếu bạn yêu thích, hãy ủng hộ tui</p>
+    </div>
+    <div class="shang_payimg">
+        <div class="pay_img">
+            <img src="/img/zalopay.jpg" class="zalopay" title="Hỗ trợ quét mã">
+            <img src="/img/weixin.jpg" class="weixin" title="Hỗ trợ quét mã">
+        </div>
+    </div>
+    <div class="shang_payselect">
+        <span><label><input type="radio" name="pay" checked value="zalopay">Zalopay</label></span><span><label><input type="radio" name="pay" value="weixin">WeChat</label></span>
+    </div>
+</div>
+
+
+</body>
+<script src="//cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+
+<script src="/js/script.js?v=1.0.1" ></script>
+<script>
+    var img_resize = 'default';
+    /*Tác giả, nhãn tự động hoàn thành*/
+    $(function () {
+        $('.search').AutoComplete({
+            'data': ['#windows','#Code','#torn',],
+            'itemHeight': 20,
+            'width': 418
+        }).AutoComplete('show');
+    })
+    function initArticle() {
+        /*Render the corresponding table style*/
+        
+            $(".post .pjax table").addClass("green_title");
+        
+
+        /*Rendering style*/
+        
+        $("input[name=pay]").on("click", function () {
+            if($("input[name=pay]:checked").val()=="weixin"){
+                $(".shang_box .shang_payimg .pay_img").addClass("weixin_img");
+            } else {
+                $(".shang_box .shang_payimg .pay_img").removeClass("weixin_img");
+            }
+        })
+        
+
+        /*Highlight code block line number*/
+        
+        $('pre code').each(function(){
+            var lines = $(this).text().split('\n').length - 1, widther='';
+            if (lines>99) {
+                widther = 'widther'
+            }
+            var $numbering = $('<ul/>').addClass('pre-numbering ' + widther).attr("unselectable","on");
+            $(this).addClass('has-numbering ' + widther)
+                    .parent()
+                    .append($numbering);
+            for(var i=1;i<=lines;i++){
+                $numbering.append($('<li/>').text(i));
+            }
+        });
+        
+
+        /*Number of visits*/
+        
+        $.getScript("//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js");
+        
+
+        /*Code highlighting, line number alignment*/
+        $('.pre-numbering').css('line-height',$('.has-numbering').css('line-height'));
+
+        
+    }
+
+    /*Reward page hiding and display*/
+    
+    function dashangToggle() {
+        $(".shang_box").fadeToggle();
+        $(".hide_box").fadeToggle();
+    }
+    
+
+</script>
+
+<!--Add a highlighted code block style for the line number-->
+
+<style>
+    pre{
+        position: relative;
+        margin-bottom: 24px;
+        border-radius: 10px;
+        border: 1px solid #e2dede;
+        background: #FFF;
+        overflow: hidden;
+    }
+    code.has-numbering{
+        margin-left: 30px;
+    }
+    code.has-numbering.widther{
+        margin-left: 35px;
+    }
+    .pre-numbering{
+        margin: 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        padding: 0.5em 3px 0.7em 5px;
+        border-right: 1px solid #C3CCD0;
+        text-align: right;
+        color: #AAA;
+        background-color: #fafafa;
+    }
+    .pre-numbering.widther {
+        width: 35px;
+    }
+</style>
+
+<!--Custom style settings-->
+<style>
+    
+    
+    .nav {
+        width: 542px;
+    }
+    .nav.fullscreen {
+        margin-left: -542px;
+    }
+    .nav-left {
+        width: 120px;
+    }
+    
+    
+    @media screen and (max-width: 1468px) {
+        .nav {
+            width: 492px;
+        }
+        .nav.fullscreen {
+            margin-left: -492px;
+        }
+        .nav-left {
+            width: 100px;
+        }
+    }
+    
+    
+    @media screen and (max-width: 1024px) {
+        .nav {
+            width: 492px;
+            margin-left: -492px
+        }
+        .nav.fullscreen {
+            margin-left: 0;
+        }
+        .nav .hide-list.fullscreen {
+            left: 492px
+        }
+    }
+    
+    @media screen and (max-width: 426px) {
+        .nav {
+            width: 100%;
+        }
+        .nav-left {
+            width: 100%;
+        }
+    }
+    
+    
+    .nav-right .title-list nav a .post-title, .nav-right .title-list #local-search-result a .post-title {
+        color: #383636;
+    }
+    
+    
+    .nav-right .title-list nav a .post-date, .nav-right .title-list #local-search-result a .post-date {
+        color: #5e5e5f;
+    }
+    
+    
+    .nav-right nav a.hover, #local-search-result a.hover{
+        background-color: #e2e0e0;
+    }
+    
+    
+
+    /*List style*/
+    
+    .post .pjax article .article-entry>ol, .post .pjax article .article-entry>ul, .post .pjax article>ol, .post .pjax article>ul{
+        border: #e2dede solid 1px;
+        border-radius: 10px;
+        padding: 10px 32px 10px 56px;
+    }
+    .post .pjax article .article-entry li>ol, .post .pjax article .article-entry li>ul,.post .pjax article li>ol, .post .pjax article li>ul{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .post .pjax article .article-entry>ol>li, .post .pjax article .article-entry>ul>li,.post .pjax article>ol>li, .post .pjax article>ul>li{
+        margin-bottom: auto;
+        margin-left: auto;
+    }
+    .post .pjax article .article-entry li>ol>li, .post .pjax article .article-entry li>ul>li,.post .pjax article li>ol>li, .post .pjax article li>ul>li{
+        margin-bottom: auto;
+        margin-left: auto;
+    }
+    
+
+    /* Background pattern */
+    
+    
+
+
+    /*Reference block style*/
+    
+
+    /*Article list background image*/
+    
+    .nav-right:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.8;
+        background: url("https://steamuserimages-a.akamaihd.net/ugc/771725009385446565/7D23F3BFC16FC7DB55471C6AB2F51705BC40447D/");
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    
+
+    
+</style>
+
+
+
+
+
+
+<div class="mobile-menus-out" >
+
+</div>
+<div class="mobile-menus">
+    
+    
+    
+    
+    <a class="dynamic-menu " target="_blank"  href="https://steamcommunity.com/id/virusneet/">Steam</a>
+    
+</div>
+
+
+</html>
