@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://frost-auslese.github.io/"/>
-  <updated>2019-08-15T18:48:33.686Z</updated>
+  <updated>2019-08-16T17:38:36.242Z</updated>
   <id>https://frost-auslese.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Guide setup Bitvise SSH + Proxifier</title>
+    <link href="https://frost-auslese.github.io/2019/08/16/vpn/"/>
+    <id>https://frost-auslese.github.io/2019/08/16/vpn/</id>
+    <published>2019-08-16T16:48:04.000Z</published>
+    <updated>2019-08-16T17:38:36.242Z</updated>
+    
+    <content type="html"><![CDATA[<p>Chắc hẳn sẽ có lúc các bạn cần phải thay đổi địa chỉ IP sang nước ngoài để làm công việc của mình. Bài viết này mình hướng dẫn fake IP bằng SSH với phần mềm Bitvise SSH Client và Proxifier. Mình xin nói qua về khái niệm SSH: SSH (tiếng anh là Secure Shell) là một giao thức mạng dùng để thiết lập kết nối mạng một cách bảo mật. 1 SSH thường có dạng như sau: IP (host)|user|password có thể có thêm vị trí, tên quốc gia của SSH đó tùy vào phần mềm Scan SSH xuất ra. Ví dụ mình có 1 SSH Nhật Bản có dạng : 61.123.148.179|test|test|Japan (JP)</p><p><strong>1.</strong>: Tải:</p><ul><li>Proxifier : <a href="https://www.proxifier.com/download.htm" target="_blank" rel="noopener">https://www.proxifier.com/download.htm</a></li><li>Bitvise SSH : <a href="https://www.bitvise.com/download-area" target="_blank" rel="noopener">https://www.bitvise.com/download-area</a> (chọn client)</li></ul><p><strong>2.</strong>: Cài proxifier + SSH (duh), crack proxifier cứ lùng trên mạng</p><p><strong>3.</strong>: Bật proxifier lên: </p><ul><li>Chọn Profile -&gt; Proxy Servers -&gt; Add -&gt; Điền như cái hình<img src="/img/vpn1.jpg"></li><li>Tắt bảng Proxy Servers, chọn Profile -&gt; Proxification Rules -&gt; Add -&gt; Điền tên &amp; đường dẫn app bạn muốn fake ip vào như hình sau rồi  bấm OK.<img src="/img/vpn2.jpg"></li></ul><p><strong>Chú ý</strong>: Check trước khi add nếu fail xem lại tab Service trong SSH đã đúng dải ip 127.0.0.27 chưa nếu sai thì phải sửa lại mới chạy đc.</p><p>Xong phần Proxifier, giờ qua SSH</p><p><strong>4.</strong>: Vào trang <a href="https://www.monthlyssh.com/ssl" target="_blank" rel="noopener">SSH Monthly</a> đăng kí tài khoản và chọn quốc gia muốn sử dụng (chọn <em>free</em>)</p><p>Bật SSH lên: </p><ul><li>Vùng <em>server</em> bên trái nhập địa chỉ host và port lấy từ SSH Monthly vừa tạo. </li><li>Vùng Authentication bên phải nhập vào username và password bạn vừa tạo.</li></ul><p>Điền như hình sau rồi  bấm OK.</p><img src="/img/vpn3.png"><p>Setup thành công -3- Sau này mỗi lần muốn chơi là bật proxifier + SSH login vào rồi vào app bạn cần, thấy bên proxifier có dòng app.exe là đang connect.</p><p>Bạn cũng có thể save lại profile cho proxifier + SSH  dành cho ai lười config lại</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Chắc hẳn sẽ có lúc các bạn cần phải thay đổi địa chỉ IP sang nước ngoài để làm công việc của mình. Bài viết này mình hướng dẫn fake IP bằ
+      
+    
+    </summary>
+    
+      <category term="PC" scheme="https://frost-auslese.github.io/categories/PC/"/>
+    
+    
+      <category term="windows" scheme="https://frost-auslese.github.io/tags/windows/"/>
+    
+  </entry>
   
   <entry>
     <title>Cách trang trí tài khoản steam</title>
