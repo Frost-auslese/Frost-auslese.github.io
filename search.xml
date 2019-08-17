@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Các loại Ban trong CSGO</title>
+      <link href="/2019/08/18/ban-trong-csgo/"/>
+      <url>/2019/08/18/ban-trong-csgo/</url>
+      
+        <content type="html"><![CDATA[<p><strong>Có 2 loại Ban(khoá tài khoản) chính trong CSGO, đó là:</strong></p><ul><li>VAC ban</li><li>Overwatch ban</li></ul><blockquote><p>“Tất nhiên là sẽ đéo có thằng ngu nào hack trên acc main của mình hết. ( ͡ᵔ ͜ʖ ͡ᵔ )” </p></blockquote><p><img src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t1.0-9/69167090_214752102845383_6827665104784326656_o.jpg?_nc_cat=104&_nc_oc=AQkTQYhIG08imZdRhKfgR6hy-lFF2HZd2WVuNGuzbgoa5mWkgAqaIcyRdFYheqT_Ozg&_nc_ht=scontent.fsgn5-4.fna&oh=d9d0425d992284e1002612ff0c014adf&oe=5DCB6B6B" alt></p><h1 id="VAC-ban"><a href="#VAC-ban" class="headerlink" title="VAC ban"></a>VAC ban</h1><p><strong>VAC là cái gì, ăn được không?</strong></p><ul><li><em>VAC</em> là viết tắt của <em>Valve Anti Cheats</em>, phần mềm chống hack của <em>Valve</em> dành cho các tựa game chạy <em>GoldSrcs</em>, <em>Source Engine</em> của hãng.</li><li>VAC đã có mặt từ <em>2001</em> và chính thức ra mắt vào năm <em>2002</em> để quản <em>Counter-Strike</em>, và đỉnh điểm của đợt <em>VAC wave</em> là vào tháng <em>1/2019</em> với <em>1186790 tài khoản bị VAC’d</em>. (Source: SteamDB).</li><li>VAC ban cũng sẽ <em>áp dụng cho các game khác cùng engine</em>: nếu giả sử bạn bị ban trong các game sử dụng <em>Source Engine</em> thì chắc chắn cũng sẽ bị ban khỏi các <em>server VAC-Secured</em> trong các game cùng engine (ăn ban trong <em>CS: Source</em> &gt;&gt; ăn ban theo trong <em>Half-Life 2: Deathmatch, Day of Defeat: Source, Team Fortress 2</em>).</li><li><strong>Nếu chia sẻ game qua Family Sharing thì cả 2 tài khoản cũng sẽ đều ăn VAC nếu bên thằng được share ăn ban.</strong></li></ul><p><strong>Cách thức hoạt động của VAC: (sauce: từ 1 forum chuyên về hack game)</strong></p><ul><li><strong>VAC sẽ không ban theo phần cứng hay IP.</strong></li><li><em>Signature Detection:</em>  Bằng nhiều cách học hỏi khác nhau, <em>VAC có thể tìm kiếm những dòng code đáng nghi được nhét vào game</em> rồi sau đó gửi qua bên server để check bằng tay bởi nhân viên hay check bằng máy. Tất nhiên VAC cũng không có thời gian để check hết toàn bộ, họ sẽ ưu tiên free hack hơn vì được sử dụng bởi nhiều thằng ngu hơn. Sau khi phát hiện, <em>Volvo sẽ xây dựng những đặc điểm riêng biệt dựa trên bất kỳ phần nào của hack bọn ngu kia đang xài để nhận biết cheat đó</em> bao gồm cả <em>file hash, strings, PE header, vị trí PEB và tên cửa sổ ứng dụng</em>. Họ (VAC) sẽ quét qua game để kiếm xem có các đặc điểm này không. Nếu có thì sẽ có sẵn một bản án tử (delayed ban) dành cho acc trong đợt VAC-wave tiếp theo hoặc ban ngay lập tức ingame. Không những thế, VAC còn xài cả <em>VirtualQuery</em> nhằm tìm và <em>quét qua bất kỳ trang bộ nhớ thông tin</em> nào có thể hoạt động được, nếu như những trang này không được phân bổ dành cho tác vụ của game thì hiển nhiên đây sẽ là một đoạn mã được chèn vào và có thể sẽ là cheat. Tất nhiên nếu mng có biết 1 bản hack private nào mà Volvo vẫn chưa biết thì có thể liên hệ với team VAC qua email: <em><a href="mailto:vacreview@valvesoftware.com" target="_blank" rel="noopener">vacreview@valvesoftware.com</a></em>.</li><li><em>VAC liệt kê hết các tác vụ đang hoạt động:</em> VAC sử dụng <em>EnumProcesses</em> nhằm tìm kiếm và từ đó quét sâu hơn vào tất cả các tác vụ đang hoạt động. Và nếu có một tác vụ nào đang nghi ngờ, VAC sẽ đào sâu hơn và kiếm cho ra bằng được tên cửa sổ mà tác vụ đó dang sử dụng rồi sau đó sẽ tạo ra một hash rồi so sánh với những thứ mà VAC đã biết. Ngoài ra VAC còn lôi thêm cả kích cỡ cửa sổ, vị trí và style của cửa sổ đó nhằm kiểm tra thêm.</li></ul><p><strong><em>How to avoid being vac’d?</em></strong></p><ul><li><strong>ĐỪNG XÀI FREE HACK/MOD SKIN, LÀM ƠN.  ¯_(ツ)_/¯</strong></li><li><strong>Cẩn thận khi đăng nhập Steam trên máy lạ:</strong> <em>phải, tôi đang nói tới các ông hay ra net đấy</em>!!!.</li><li><strong>Tránh chia sẻ tài khoản dưới bất kỳ hình thức nào.</strong></li><li>Đừng click vào các link vớ vẩn được gửi bởi người lạ, đặc biệt là cái vụ <em>free knives trên workshop</em> ý, <strong>ĐÉO BAO GIỜ CÓ ĐÂU, MƠ VỪA THÔI!</strong></li></ul><h1 id="Overwatch-ban-Game-ban"><a href="#Overwatch-ban-Game-ban" class="headerlink" title="Overwatch ban (Game ban)"></a>Overwatch ban (Game ban)</h1><p>Loại này dành cho người chơi đã đủ 150 trận wins trong game, Nova 1 trở lên sẽ có thể xài Overwatch. Tức là các bạn bắn trong game, nghi thằng nào hack rồi report thì bọn nó sẽ xếp vào overwatch, và nếu 80% bọn Overwatch xem mà cùng phán là có hack thì nick thằng hax sẽ bay. Có 2 loại:</p><ul><li><strong>Ban do hack cheat</strong>: Loại này thì cũng sẽ bị ban vĩnh viễn, nếu có xài tool thì 1 thời gian sau nếu cái Tool đó bị lộ, và VAC cập nhật vào list thì Overwatch ban sẽ chuyển thành VAC ban luôn.</li><li><strong>Ban do Griefing</strong>: Là các thanh niên phá game, derank, quấy rội teammate bị tụi teammate nó report cũng sẽ được đưa Overwatch. Loại này thì sẽ có hạn thả, tùy mức độ cũng như lần tái phạm mà thời gian sẽ dài hay ngắn.</li><li><strong>Khi bị Overwatch ban (Game ban)</strong> thì sẽ có hiện dòng thông báo màu đỏ trong game và cả trên profile nữa.</li></ul><p><em>Minorly:</em> Tức là bị report do Griefing<br><em>Majorly:</em> Tức là liên quan đến hack cheat.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Games </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CSGO </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Nạn hack trong CSGO</title>
       <link href="/2019/08/18/hack-cheat-trong-csgo/"/>
       <url>/2019/08/18/hack-cheat-trong-csgo/</url>
