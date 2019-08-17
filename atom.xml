@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://frost-auslese.github.io/"/>
-  <updated>2019-08-16T17:50:56.265Z</updated>
+  <updated>2019-08-17T14:02:16.403Z</updated>
   <id>https://frost-auslese.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Steam chat logger</title>
+    <link href="https://frost-auslese.github.io/2019/08/17/steam-chat-logger/"/>
+    <id>https://frost-auslese.github.io/2019/08/17/steam-chat-logger/</id>
+    <published>2019-08-17T13:42:54.000Z</published>
+    <updated>2019-08-17T14:02:16.403Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://steamuserimages-a.akamaihd.net/ugc/840394753477087450/6D2CF24A0D04948AFF9DA7CB8FB71CECECAA6CE1/" alt><br>Steam Chat Logger một chương trình tự động lưu các cuộc hội thoại Steam của bạn vào PC dưới dạng các tệp văn bản có tổ chức.</p><p>Chương trình này được tạo bởi Sp0okER. Kiểm tra những thứ của họ dưới đây</p><ul><li><a href="https://github.com/sp0ok3r" target="_blank" rel="noopener">Github</a></li><li><a href="https://steamcommunity.com/id/sp0ok3rz/" target="_blank" rel="noopener">Steam profile</a></li></ul><p><strong>Lưu ý</strong>: Nếu tại bất kỳ thời điểm nào trong hướng dẫn này, phần mềm chống vi-rút của bạn được kích hoạt, đó là kết quả dương tính giả. Chương trình này là hoàn toàn an toàn và nguồn mở. Bạn có thể tự mình xem bằng cách truy cập mã nguồn của nó <a href="https://github.com/sp0ok3r/ChatLogger/tree/master/ChatLogger" target="_blank" rel="noopener"><em>ở đây</em></a>.</p><p><strong>Bước 1</strong>:</p><ul><li>Tải chương trình qua trang web: <a href="https://github.com/sp0ok3r/ChatLogger/releases" target="_blank" rel="noopener">https://github.com/sp0ok3r/ChatLogger/releases</a></li><li>Chỉ cần nhấp vào tệp zip đầu tiên trong menu assets để bắt đầu tải xuống.<br><img src="https://steamuserimages-a.akamaihd.net/ugc/840394753477132704/F970CE699ACD60BF35397F0979D1A472BC949A97/" alt></li><li>Hãy tiếp tục và giải nén tệp zip bất cứ nơi nào bạn muốn lưu trữ chương trình</li></ul><p><strong>Bước 2</strong>:</p><ul><li>Mở thư mục và nhấp đúp vào ứng dụng để khởi động nó. Nó sẽ tự động phát hiện tài khoản Steam của bạn<br><img src="https://steamuserimages-a.akamaihd.net/ugc/840394753477201677/E68C13989546E814E7A40AC30E03792C7F47D5D8/" alt></li><li>Chọn tài khoản của bạn và nhấp vào nút chỉnh sửa tài khoản. Nếu tài khoản của bạn không được phát hiện, hãy nhấp vào nút <em>add account</em>.</li></ul><p><strong>Bước 3</strong>:</p><ul><li>Đăng nhập vào tài khoản Steam của bạn. Chương trình này hoàn toàn an toàn và bạn có thể xem mã nguồn <a href="https://github.com/sp0ok3r/ChatLogger/tree/master/ChatLogger" target="_blank" rel="noopener">tại đây</a>.<br><img src="https://steamuserimages-a.akamaihd.net/ugc/840394753477415909/EAC6F29F7FF2A26DA9ADDB77EFD0594A1495BDD7/" alt></li><li>Nếu bạn có trình xác thực di động, bạn sẽ được nhắc nhập mã trước khi đăng nhập. Sau khi đăng nhập thành công, nó sẽ hiển thị hình đại diện của bạn ở góc trên.</li></ul><p><strong>Bước 4</strong>:</p><ul><li>Khi bạn đã đăng nhập, bạn có thể điều hướng đến <em>tab logger</em> để quản lý nơi lưu nhật ký trò chuyện của bạn<br><img src="https://steamuserimages-a.akamaihd.net/ugc/840394753477399261/77841C7C82DA86D1120BE40F85090F62BECB07A1/" alt></li><li>Theo mặc định, các nhật ký được lưu trữ trong thư mục nhật ký trò chuyện trong cùng thư mục mà ứng dụng đang ở.</li></ul><p><strong>Để giữ cho chương trình này luôn lưu lịch sử trò chuyện của bạn, đây là một số cài đặt bạn nên bật</strong>:<br><img src="https://steamuserimages-a.akamaihd.net/ugc/840394753477364064/92CDFD7690DF2BE03D43C12C6DFFA1318E9CF992/" alt><br>Cái đầu tiên được tìm thấy trong màn hình đăng nhập và cái thứ hai nằm dưới tab cài đặt.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://steamuserimages-a.akamaihd.net/ugc/840394753477087450/6D2CF24A0D04948AFF9DA7CB8FB71CECECAA6CE1/&quot; alt&gt;&lt;br&gt;Steam Chat Log
+      
+    
+    </summary>
+    
+      <category term="Games" scheme="https://frost-auslese.github.io/categories/Games/"/>
+    
+    
+      <category term="Steam" scheme="https://frost-auslese.github.io/tags/Steam/"/>
+    
+  </entry>
   
   <entry>
     <title>Fake ip bằng Bitvise SSH + Proxifier</title>
